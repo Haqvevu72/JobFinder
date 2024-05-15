@@ -1,7 +1,16 @@
+using JobFinderPractic.Registers;
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+// My All Service
+builder.AddDbContextServices();
+builder.Services.AddRepositoryServices();
+builder.AddIdentityConfigureServices();
+
+
 
 var app = builder.Build();
 

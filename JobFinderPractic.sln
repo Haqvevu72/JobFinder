@@ -5,6 +5,10 @@ VisualStudioVersion = 17.9.34723.18
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobFinderPractic", "JobFinderPractic\JobFinderPractic.csproj", "{9FA797A2-906B-4D07-B0E8-FC6A86C42031}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobFinderPractic.DataAccess", "JobFinderPractic.DataAccess\JobFinderPractic.DataAccess.csproj", "{0F0822E0-3F2D-4BF9-BE5D-29928A65F98F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JobFinderPractic.Domain", "JobFinderPractic.Domain\JobFinderPractic.Domain.csproj", "{71A34BE1-E656-4BFD-93F0-51992DD8A507}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{9FA797A2-906B-4D07-B0E8-FC6A86C42031}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FA797A2-906B-4D07-B0E8-FC6A86C42031}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FA797A2-906B-4D07-B0E8-FC6A86C42031}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F0822E0-3F2D-4BF9-BE5D-29928A65F98F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F0822E0-3F2D-4BF9-BE5D-29928A65F98F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F0822E0-3F2D-4BF9-BE5D-29928A65F98F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F0822E0-3F2D-4BF9-BE5D-29928A65F98F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71A34BE1-E656-4BFD-93F0-51992DD8A507}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71A34BE1-E656-4BFD-93F0-51992DD8A507}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71A34BE1-E656-4BFD-93F0-51992DD8A507}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71A34BE1-E656-4BFD-93F0-51992DD8A507}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
