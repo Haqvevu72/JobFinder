@@ -1994,6 +1994,29 @@
             "rid": "win"
           }
         }
+      },
+      "JobFinderPractic.DataAccess/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "JobFinderPractic.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/JobFinderPractic.DataAccess.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobFinderPractic.DataAccess.dll": {}
+        }
+      },
+      "JobFinderPractic.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/JobFinderPractic.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/JobFinderPractic.Domain.dll": {}
+        }
       }
     }
   },
@@ -5682,10 +5705,22 @@
         "system.windows.extensions.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "JobFinderPractic.DataAccess/1.0.0": {
+      "type": "project",
+      "path": "../JobFinderPractic.DataAccess/JobFinderPractic.DataAccess.csproj",
+      "msbuildProject": "../JobFinderPractic.DataAccess/JobFinderPractic.DataAccess.csproj"
+    },
+    "JobFinderPractic.Domain/1.0.0": {
+      "type": "project",
+      "path": "../JobFinderPractic.Domain/JobFinderPractic.Domain.csproj",
+      "msbuildProject": "../JobFinderPractic.Domain/JobFinderPractic.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "JobFinderPractic.DataAccess >= 1.0.0",
+      "JobFinderPractic.Domain >= 1.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.2"
     ]
   },
@@ -5721,7 +5756,14 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\atamoghlanov_j\\source\\repos\\JobFinderPractic\\JobFinderPractic.DataAccess\\JobFinderPractic.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\atamoghlanov_j\\source\\repos\\JobFinderPractic\\JobFinderPractic.DataAccess\\JobFinderPractic.DataAccess.csproj"
+            },
+            "C:\\Users\\atamoghlanov_j\\source\\repos\\JobFinderPractic\\JobFinderPractic.Domain\\JobFinderPractic.Domain.csproj": {
+              "projectPath": "C:\\Users\\atamoghlanov_j\\source\\repos\\JobFinderPractic\\JobFinderPractic.Domain\\JobFinderPractic.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
