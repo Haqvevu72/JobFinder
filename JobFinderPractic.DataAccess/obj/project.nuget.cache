@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XXG4N0ERzoWDnAlLUL3biIJvyWqdxZBatq4j+S5JM2pCYtA6nx07LsEFiBl9zZ0UrI/6/P03Gy2FA0dqgw3BtA==",
+  "dgSpecHash": "zF5NoF1ICSAeg7TzPvBKBI4ZSN/eFQFpxULZbl4wYDeYObvz3ygSeJSLw+1CqifGmVMwSBkomF9UxI75J2txdw==",
   "success": true,
-  "projectFilePath": "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.DataAccess/JobFinderPractic.DataAccess.csproj",
+  "projectFilePath": "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.DataAccess/JobFinderPractic.DataAccess.csproj",
   "expectedPackageFiles": [
     "/Users/elgunhaqverdiyev/.nuget/packages/azure.core/1.35.0/azure.core.1.35.0.nupkg.sha512",
     "/Users/elgunhaqverdiyev/.nuget/packages/azure.identity/1.10.3/azure.identity.1.10.3.nupkg.sha512",

@@ -4304,11 +4304,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.DataAccess/JobFinderPractic.DataAccess.csproj",
+      "projectUniqueName": "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.DataAccess/JobFinderPractic.DataAccess.csproj",
       "projectName": "JobFinderPractic.DataAccess",
-      "projectPath": "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.DataAccess/JobFinderPractic.DataAccess.csproj",
+      "projectPath": "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.DataAccess/JobFinderPractic.DataAccess.csproj",
       "packagesPath": "/Users/elgunhaqverdiyev/.nuget/packages/",
-      "outputPath": "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.DataAccess/obj/",
+      "outputPath": "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.DataAccess/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/elgunhaqverdiyev/.nuget/NuGet/NuGet.Config"
@@ -4324,8 +4324,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj": {
-              "projectPath": "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj"
+            "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj": {
+              "projectPath": "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj"
             }
           }
         }
@@ -4334,11 +4334,6 @@
         "warnAsError": [
           "NU1605"
         ]
-      },
-      "restoreAuditProperties": {
-        "enableAudit": "true",
-        "auditLevel": "low",
-        "auditMode": "direct"
       }
     },
     "frameworks": {

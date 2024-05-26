@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj": {}
+    "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj": {}
   },
   "projects": {
-    "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj": {
+    "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj",
+        "projectUniqueName": "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj",
         "projectName": "JobFinderPractic.Domain",
-        "projectPath": "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj",
+        "projectPath": "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/JobFinderPractic.Domain.csproj",
         "packagesPath": "/Users/elgunhaqverdiyev/.nuget/packages/",
-        "outputPath": "/Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/obj/",
+        "outputPath": "/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/elgunhaqverdiyev/.nuget/NuGet/NuGet.Config"
@@ -33,11 +33,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="@localhost" uuid="00b07e2f-9330-4be5-81b2-b4f5d243f3ab">
+    <data-source source="LOCAL" name="JobFinderDb@localhost" uuid="9b3e77ae-4149-4bef-8ec1-c7590b4a8875">
       <driver-ref>sqlserver.jb</driver-ref>
       <synchronize>true</synchronize>
       <configured-by-url>true</configured-by-url>
       <jdbc-driver>com.jetbrains.jdbc.sqlserver.SqlServerDriver</jdbc-driver>
-      <jdbc-url>Server=localhost</jdbc-url>
+      <jdbc-url>Server=localhost;Database=JobFinderDb;User Id=SA;Password=Password123;TrustServerCertificate=True;</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

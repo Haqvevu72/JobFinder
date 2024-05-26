@@ -11,3 +11,16 @@
 /Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/obj/Debug/net8.0/refint/JobFinderPractic.Domain.dll
 /Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/obj/Debug/net8.0/JobFinderPractic.Domain.pdb
 /Users/elgunhaqverdiyev/Desktop/JobFinderPractic/JobFinderPractic.Domain/obj/Debug/net8.0/ref/JobFinderPractic.Domain.dll
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/bin/Debug/net8.0/JobFinderPractic.Domain.deps.json
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/bin/Debug/net8.0/JobFinderPractic.Domain.dll
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/bin/Debug/net8.0/JobFinderPractic.Domain.pdb
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/JobFinderPractic.Domain.csproj.AssemblyReference.cache
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/JobFinderPractic.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/JobFinderPractic.Domain.AssemblyInfoInputs.cache
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/JobFinderPractic.Domain.AssemblyInfo.cs
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/JobFinderPractic.Domain.csproj.CoreCompileInputs.cache
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/JobFinderPractic.Domain.sourcelink.json
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/JobFinderPractic.Domain.dll
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/refint/JobFinderPractic.Domain.dll
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/JobFinderPractic.Domain.pdb
+/Users/elgunhaqverdiyev/Desktop/untitled folder/JobFinder/JobFinderPractic.Domain/obj/Debug/net8.0/ref/JobFinderPractic.Domain.dll

@@ -24,6 +24,33 @@ public class AccountController : Controller
         return View();
     }
 
+    [HttpPost]
+    public async Task<IActionResult> Login(LoginVM loginVm)
+    {
+        if (!ModelState.IsValid)
+            return View(loginVm);
+
+        var user = await _userManager.FindByEmailAsync(loginVm.Email);
+        
+        if (user is null)
+        {
+            ModelState.AddModelError("All", "User not found");
+            return View(loginVm);
+        }
+        
+        var result = await _userManager.CheckPasswordAsync(user, loginVm.Password);
+
+        if (result == false)
+        {
+            ModelState.AddModelError("All", "Password is wrong");
+            return View(loginVm);
+        }
+        
+        await _signInManager.SignInAsync(user, loginVm.RememberMe);
+
+        return RedirectToAction("Index", "Home");
+    }
+
     // Register
     [HttpGet]
     public IActionResult Register()
@@ -40,7 +67,10 @@ public class AccountController : Controller
         AppUser appUser = new AppUser()
         {
             UserName = registerVm.Email,
-            Email = registerVm.Email
+            Email = registerVm.Email,
+            Status = registerVm.Status,
+            Fullname = registerVm.Fullname,
+            PasswordConfirm = registerVm.ConfirmPassword
         };
 
         var result = await _userManager.CreateAsync(appUser, registerVm.Password);
@@ -61,8 +91,9 @@ public class AccountController : Controller
     // LogOut
     [HttpGet]
     [Authorize]
-    public IActionResult LogOut()
+    public async Task<IActionResult> LogOut()
     {
+        await _signInManager.SignOutAsync();
         return RedirectToAction("Index", "Home");
     }
 
